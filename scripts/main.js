@@ -98,9 +98,10 @@ btn.addEventListener('click', (e) => {
     } else {
         if (humanScore > computerScore) {
             result.textContent = "You win 🏆";
+
         } else if (humanScore < computerScore) {
             result.textContent = "You lose 🙁";
-            displayResult.textContent = ""
+
         } else {
             result.textContent = "It's a draw!";
         }
